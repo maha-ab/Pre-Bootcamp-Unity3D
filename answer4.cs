@@ -5,8 +5,15 @@ public class Program
 	static int Multiply(double num1,double num2,double num3,double num4)
     {  
 		int multiplyRes;
+		int intNum1,intNum2,intNum3,intNum4;
+		
+		intNum1=Convert.ToInt32(num1);
+		intNum2=Convert.ToInt32(num2);
+		intNum3=Convert.ToInt32(num3);
+		intNum4=Convert.ToInt32(num4);
+		
 	
-		multiplyRes=(int)num1*(int)num2*(int)num3*(int)num4;
+		multiplyRes=intNum1*intNum2*intNum3*intNum4;
 		
 		return multiplyRes;
     }
