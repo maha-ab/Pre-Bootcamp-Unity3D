@@ -75,13 +75,13 @@ public class program{
 		gameObject.CreateComponent("Box Collider");
 		Console.WriteLine("The Game Object Components is: ");
 		gameObject.PrintAllComponents();
-		Console.WriteLine("IS component Light in the components List: "+gameObject.GetComponent("Light"));//return false
-		Console.WriteLine("IS component Mesh Renderer in the components List: "+gameObject.GetComponent("Mesh Renderer"));//return true
+		Console.WriteLine("IS component Light in the components List: "+gameObject.GetComponent("Light"));//to return false
+		Console.WriteLine("IS component Mesh Renderer in the components List: "+gameObject.GetComponent("Mesh Renderer"));//to return true
 		gameObject.SetName("cube");
 		Console.WriteLine("the GameObject is :"+gameObject.GetName());
 		
 		transform.Translate();
-        Console.WriteLine(transform.GetName());	 
+                Console.WriteLine(transform.GetName());	 
 		Console.WriteLine("Object transform in x and y position as ("+ transform.GetXPosition()+":"+transform.GetYPosition()+")");
 	}
 }
